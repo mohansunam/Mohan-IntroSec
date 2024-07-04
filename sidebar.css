@@ -1,0 +1,51 @@
+.sidebaar{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(226, 162, 0);
+  
+}
+.sidebaar div{
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  font-size: 12px;
+  padding: 20px 10px 30px 10px;
+  text-align: center;
+  
+}
+.sidebaar div a{
+text-decoration: none;
+color: rgb(25, 19, 19);
+}
+.sidebaar div:hover{
+  background-color: rgb(229, 229, 112);
+  margin-right: 10px;
+  cursor: pointer;
+  
+
+}
+.sidebaar div a:active{
+  color: black;
+  
+
+}
+/* .box1{
+  background-color: red;
+ 
+}
+.box2{
+  background-color: green;
+
+}
+.box3{
+  background-color: blue;
+
+}
+.box4{
+  background-color: pink;
+
+}
+.box5{
+  background-color: yellow;
+
+} */
